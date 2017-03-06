@@ -30,7 +30,7 @@ This will install the specified version of bazel into your keg.
 To actually link it into `/usr/local` so you can use it:
 
 - `brew unlink bazel` (if you've already installed the unversioned bazel from `homebrew-core`)
-- `brew link bazel@0.3.2`
+- `brew link bazel@0.3.2 --force`
 
 To restore the version from `homebrew-core`:
 
