@@ -16,23 +16,23 @@ This Tap contains keg-only formulae for various useful versions of Bazel.
 
 ## Usage
 
-(Replace `0.3.2` below with any version for which this repo has a formula).
+(Replace `0.5.1` below with any version for which this repo has a formula).
 
 - `brew tap benjyw/bazel` to add this to your tapped repositories, if
   it isn't already.
   
 - `brew update` to fetch the most recent formulae.
 
-- `brew install bazel@0.3.2`
+- `brew install bazel@0.5.1`
 
 
 This will install the specified version of bazel into your keg.  
 To actually link it into `/usr/local` so you can use it:
 
 - `brew unlink bazel` (if you've already installed the unversioned bazel from `homebrew-core`)
-- `brew link bazel@0.3.2 --force`
+- `brew link bazel@0.5.1 --force`
 
 To restore the version from `homebrew-core`:
 
-- `brew unlink bazel@0.3.2`
+- `brew unlink bazel@0.5.1`
 - `brew link bazel`
